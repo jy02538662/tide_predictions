@@ -1,0 +1,36 @@
+{
+  "A_Aut_Z2xZ2": {
+    "non_trivial_elements": [
+      "Γ",
+      "K",
+      "ΓK"
+    ],
+    "automorphism_count": 6,
+    "S3_order": 6,
+    "verdict": "Aut(Z₂×Z₂) = S₃（三非平凡元的置换 = 3! = 6 = |S₃|）",
+    "note": "阿贝尔群 Z₂×Z₂ 的自同构只能是置换（保 e 且保群律），故是 S₃"
+  },
+  "B_3cycle_rotation": {
+    "cycle_matrix_eigenvalues": {
+      "1": 1,
+      "-1/2 - sqrt(3)*I/2": 1,
+      "-1/2 + sqrt(3)*I/2": 1
+    },
+    "omega": "exp(2*I*pi/3)",
+    "omega_simplified": "exp(2*I*pi/3)",
+    "verdict": "3-循环特征值 {1, ω, ω²}，ω=e^{2πi/3}，即 120° 旋转"
+  },
+  "C_A2_Cartan": {
+    "theta": "120°（m=3 ⟹ cos π/3 = 1/2 = |cos θ|，θ=120° 给有限维）",
+    "A12": "-1",
+    "Cartan_matrix": "Matrix([[2, -1], [-1, 2]])",
+    "verdict": "Cartan 矩阵 [[2,-1],[-1,2]] = A₂ 型 ⟹ su(3)",
+    "note": "A₁₂=2cos120°=-1=2Re(ω)，与 3-循环特征值一致"
+  },
+  "D_unique_prediction": {
+    "chain": "手征 Γ × 共轭 K（两个 Z₂）→ Aut=S₃ → A₂ 根系统 → su(3)（颜色）",
+    "prediction": "颜色（SU(3)）的来源 = 手征×共轭的自同构 S₃。⟹ 颜色不能独立存在，必然伴随手征 Γ 和共轭 K 两个 Z₂ 结构。⟹ 可检验推论：无手征 ⟹ 无颜色（颜色三重态必伴随手征结构）。",
+    "uniqueness": "标准模型里「夸克有颜色」与「夸克手征（左右不对称）」是两条独立实验输入，标准模型不解释「为什么有颜色的东西恰好手征」。框架预言这是结构强制——非重言式（标准模型无此约束）。",
+    "testability": "待 exp3 提炼可证伪形式"
+  }
+}

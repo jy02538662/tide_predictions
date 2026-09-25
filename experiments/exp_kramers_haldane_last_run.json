@@ -1,0 +1,58 @@
+{
+  "haldane_M_check": {
+    "M_antisym_err": 0.0,
+    "M_real": true
+  },
+  "haldane_J_decomposition": {
+    "anti_commuting_part_norm": 5.625034211130917,
+    "commuting_part_norm": 5.688496297230645,
+    "note": "若 anti>>comm，则 Haldane 主要落在「反对易」类，Kramers 应存活；反之破坏"
+  },
+  "t2_0.1": {
+    "all_even_mult": true,
+    "mults": [
+      2,
+      2,
+      2,
+      4,
+      2,
+      2,
+      2
+    ]
+  },
+  "t2_0.3": {
+    "all_even_mult": true,
+    "mults": [
+      2,
+      2,
+      2,
+      4,
+      2,
+      2,
+      2
+    ]
+  },
+  "t2_0.5": {
+    "all_even_mult": true,
+    "mults": [
+      4,
+      2,
+      4,
+      2,
+      4
+    ]
+  },
+  "t2_1.0": {
+    "all_even_mult": true,
+    "mults": [
+      2,
+      2,
+      2,
+      4,
+      2,
+      2,
+      2
+    ]
+  },
+  "conclusion": "看 Haldane 次近邻虚跃迁（真实的破 T 扰动）落在 exp3 判据的哪一类：若它主要与 J 反对易，则 spinless π 磁通 + Haldane 仍保持 Kramers 简并，这是框架独有的、可在真实材料里检验的预言。"
+}

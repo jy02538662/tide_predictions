@@ -1,0 +1,28 @@
+{
+  "A_selection_rule": {
+    "Y_lm_phi_plus_pi_over_Y_lm": "= (−1)^m（球谐标准性质）",
+    "max_numerical_error": 2.3416507802890417e-15,
+    "note": "数值坐实 Y_{lm}(θ,φ+π) = (−1)^m Y_{lm}(θ,φ)，最大误差 2.34e-15"
+  },
+  "B_antisym_implies_even_m_zero": {
+    "even_m_power": 0.0012368058604519852,
+    "odd_m_power": 12.73946989065299,
+    "verdict": "偶 m 功率 = 1.24e-03（≈0，蒙特卡洛噪声），奇 m 功率 = 12.7395（主导）",
+    "note": "任意 C₂(z) 反对称场（奇次谐波混合）⟹ 偶 m 球谐系数严格为零（含 ℓ=0 单极）"
+  },
+  "C_material_mapping": {
+    "theorem_status": "C₂(z) 偶 m 禁戒定理已证（论文草稿 §4.2），Q=2,3,4 真实 Hopfion 偶 m 功率 <10⁻⁶（§4.3，hopf_skyrme_cpu 项目）",
+    "candidate_systems": [
+      "旋量 BEC（spin-1/spin-2）",
+      "磁 Hopfion",
+      "磁 Skyrmion 晶格"
+    ],
+    "observable": "自旋分辨成像测远场磁化方向 n(x)，球谐分解，测偶 m 功率",
+    "signature": "Q≥2 Hopfion：偶 m 功率 ≈0（单极 ℓ=0 消失），只有奇 m 分量（|m|=1 占 >99.9%）",
+    "control": "Q=1（无 C₂(z)）：偶 m 功率非零（有单极分量）"
+  },
+  "D_conclusion": {
+    "complete": "C₂(z) 材料对应的推导已干净：定理（论文 §4.2 完整证明）+ 数值（Q=2,3,4 偶 m <10⁻⁶，§4.3）+ 材料可测签名（本实验 A/B 独立坐实选择规则）。",
+    "honest": "「材料对应」的价值 = 把已证定理的可观测签名明确化（偶 m 功率消失是旋量 BEC/磁 Hopfion 可直接测的量）。这不是新定理，是「定理 → 实验」的映射。"
+  }
+}

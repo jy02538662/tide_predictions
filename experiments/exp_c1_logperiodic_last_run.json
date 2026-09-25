@@ -1,0 +1,24 @@
+{
+  "discrete_nesting": {
+    "nesting_scale_c": 2.0,
+    "predicted_period_in_t": 9.064720283654388,
+    "G_t_samples": [
+      -0.0014,
+      -0.0026,
+      -0.0014,
+      0.0011,
+      0.0027,
+      0.0019,
+      -0.0007,
+      -0.0029,
+      -0.0025,
+      0.0003
+    ]
+  },
+  "continuous_scale_invariance": {
+    "prediction": "G(t) ~ 1/t，无对数周期（exp_gravity_uniqueness 已验）"
+  },
+  "key_criterion": {
+    "statement": "对数周期振荡 ⟺ 存在离散嵌套尺度 c（特征尺度）。A（无偏好尺度）⟹ c 不存在 ⟹ 无振荡 ⟹ 纯 1/t。故「观测到对数周期」在 A 成立时不可能发生——C1 更接近 A 的恒等式，而非可证伪预言（见下一实验厘清定位）。"
+  }
+}

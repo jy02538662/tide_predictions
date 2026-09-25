@@ -1,0 +1,22 @@
+{
+  "anchor_status": {
+    "finite_N_to_unit_root": "Chebyshev 零点恒等式（定理，已证 N=3..8 精确）",
+    "quantum_fluctuation_pseudo_problem": "两个负结果钉死：配分函数不选单位根 + 相位积分均匀",
+    "quantization_is_cutoff": "量子化 = 有限性 + 截断，非「涨落选择」，不需路径积分",
+    "note": "这些已充分收口（预印本 1.0 §6 + 量子化与尺度笔记），不是待推的"
+  },
+  "positioning": {
+    "interpretation_vs_prediction": "「量子化 = 有限截断」是诠释：回答「量子化从哪来」，不回答「什么实验能区分框架 vs 标准 QM」。",
+    "no_distinguishing_observable": "框架的量子化和标准 QM 的量子化给出同样的离散谱——没有「量子噪声谱离散非均匀」的可观测签名，两者不可区分。",
+    "verdict": "门 5 = 诠释（已收口），非可检验预言。独有因果（量子化=截断、量子涨落选单位根是伪问题）是真的，但不产生区别于标准 QM 的观测签名。"
+  },
+  "three_way": {
+    "what_is_true": "「有限 N ⟹ 单位根」是定理，「量子涨落选单位根是伪问题」是真的",
+    "what_is_unique": "「量子化 = 截断（非涨落）」的因果是框架独有的诠释",
+    "what_is_missing": "缺少「区别于标准 QM 的可观测预言」——所以是诠释，不是预言"
+  },
+  "strength": {
+    "level": "诠释（比门 2 弱——门 2 有可观测预言；比门 4 强——门 4 是猜测本身错了）",
+    "analogy": "类似 C1：真的结论（恒等式/定理），但不是新预言"
+  }
+}

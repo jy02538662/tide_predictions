@@ -1,0 +1,17 @@
+{
+  "C3_window_comparison": {
+    "hard": {
+      "tail_power_p": 1.5868907822009624,
+      "mean_relative_deviation_tail": 1.0970810045881805
+    },
+    "exponential": {
+      "tail_power_p": 0.9936078526074243,
+      "mean_relative_deviation_tail": 0.018606790472447992
+    },
+    "gaussian": {
+      "tail_power_p": 0.9895066203273288,
+      "mean_relative_deviation_tail": 0.011887197045450461
+    }
+  },
+  "C3_conclusion": "硬截断 p 乱跳（振荡伪影）；指数/高斯平滑窗口 p 应稳定趋近某值。若平滑窗口下 p≈1（尾巴仍是 1/t），则修正只来自截断伪影，物理上无观察者依赖的长程修正——这是门 1 需要面对的诚实结论；若平滑窗口下尾巴出现与窗口无关的指数衰减 e^{-t/Δ}，则是真实修正。"
+}

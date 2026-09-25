@@ -1,0 +1,26 @@
+{
+  "A_physical_T": {
+    "U": "I（spinless，无自旋）",
+    "T2": "Matrix([[1, 0], [0, 1]])",
+    "sign": "T²=+1 ⟹ 无 Kramers（Kramers 定理要求 T²=−1）"
+  },
+  "B_emergent_Tprime": {
+    "J": "[[0,1],[-1,0]]（实反对称正交，J²=-I）",
+    "Tprime2": "Matrix([[-1, 0], [0, -1]])",
+    "sign": "T'²=−I ⟹ 有 Kramers 简并"
+  },
+  "C_J_uniqueness": {
+    "general_antisym_2x2": "[[0,a],[-a,0]]",
+    "J2": "Matrix([[-a**2, 0], [0, -a**2]])",
+    "condition_J2_eq_minusI_solution_a": [
+      "(-1,)",
+      "(1,)"
+    ],
+    "note": "a=±1 是唯一解 ⟹ J=[[0,±1],[∓1,0]] 唯一（至符号），号差与 SU(2) 同源"
+  },
+  "D_kramers_essence": {
+    "T2_minus1": "全偶重数（Kramers 对，ψ 与 Tψ 正交简并）",
+    "T2_plus1": "不强制偶重数（无 Kramers 保护）",
+    "note": "spinless 物理 T²=+1 ⟹ 本无 Kramers；π 磁通涌现 T'²=−1 ⟹ 强加 Kramers"
+  }
+}

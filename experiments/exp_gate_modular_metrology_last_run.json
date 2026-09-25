@@ -1,0 +1,32 @@
+{
+  "A_spectrum_discrete_N8": {
+    "n_frequencies": 28,
+    "total_pairs": 28,
+    "note": "模流谱 8×8 有 28 个独立频率（离散点集，非连续）"
+  },
+  "A_spectrum_discrete_N16": {
+    "n_frequencies": 120,
+    "total_pairs": 120,
+    "note": "模流谱 16×16 有 120 个独立频率（离散点集，非连续）"
+  },
+  "A_spectrum_discrete_N32": {
+    "n_frequencies": 496,
+    "total_pairs": 496,
+    "note": "模流谱 32×32 有 496 个独立频率（离散点集，非连续）"
+  },
+  "A_spectrum_discrete_N64": {
+    "n_frequencies": 2016,
+    "total_pairs": 2016,
+    "note": "模流谱 64×64 有 2016 个独立频率（离散点集，非连续）"
+  },
+  "B_fisher": {
+    "statement": "单参数 θ 估计的 Fisher 信息 F(θ) ∝ t²（量子计量标准结果）",
+    "note": "谱离散性不影响 Fisher 信息的标度（t²），只影响谱的支撑结构"
+  },
+  "C_verdict": {
+    "what_is_standard": "有限维量子系统的模流谱离散（{θ_ij} 离散点集）是「有限维能谱离散」的标准事实，任何有限维量子系统都有。不是框架独有。",
+    "what_is_unique": "框架独有的只是「时间 = 模流（从观察者态涌现）」这个结构，但「模流谱离散 → 量子计量效应」是标准结果（有限维系统能谱离散）。",
+    "conclusion": "模流量子计量（换角度）仍是标准结果，不是框架独有预言。门 4 否了「谱隙」角度，本实验否了「谱离散性」角度——两个角度都不是框架独有的可观测区别。",
+    "honest": "模流量子计量这条 P2 方向，两个角度都推完，结论 = 标准结果，无独有预言。"
+  }
+}

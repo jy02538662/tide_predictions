@@ -1,0 +1,57 @@
+{
+  "J_check": {
+    "J_is_real": true,
+    "J_antisym_err": 1.1102230246251565e-16,
+    "J_orthog_err": 8.881784197001252e-16,
+    "J2_minus1_err": 8.881784197001252e-16,
+    "JD_DJ_err": 1.519617764955683e-15,
+    "D_mults": [
+      2,
+      4,
+      4,
+      4,
+      2
+    ]
+  },
+  "M_relation": {
+    "M_anti_J_anticomm_err": 1.592476150946709e-15,
+    "M_comm_J_comm_err": 1.0685896612017132e-15,
+    "M_anti_antisym_err": 2.3678975447083417e-16,
+    "M_comm_antisym_err": 2.3678975447083417e-16
+  },
+  "M_anti_keepsKramers": {
+    "all_even_mult": true,
+    "mults": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ]
+  },
+  "M_comm_killsKramers": {
+    "all_even_mult": false,
+    "mults": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "conclusion": "M_anti（JM=−MJ）加 iM 后全偶重数存活（Kramers 保住）；M_comm（JM=+MJ）加 iM 后全偶重数破坏（Kramers 消失）。坐实判据：破物理时间反演 T=K 的虚扰动 iM，若与内禀 J 反对易，则 spinless 系统仍保持 Kramers 简并——框架独有（标准理论 spinless 无 Kramers）。"
+}

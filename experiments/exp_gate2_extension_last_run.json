@@ -1,0 +1,145 @@
+{
+  "A_haldane_extended": {
+    "0.1": {
+      "all_even": true,
+      "mults": [
+        2,
+        2,
+        2,
+        4,
+        2,
+        2,
+        2
+      ]
+    },
+    "0.3": {
+      "all_even": true,
+      "mults": [
+        2,
+        2,
+        2,
+        4,
+        2,
+        2,
+        2
+      ]
+    },
+    "0.5": {
+      "all_even": true,
+      "mults": [
+        4,
+        2,
+        4,
+        2,
+        4
+      ]
+    },
+    "1.0": {
+      "all_even": true,
+      "mults": [
+        2,
+        2,
+        2,
+        4,
+        2,
+        2,
+        2
+      ]
+    },
+    "2.0": {
+      "all_even": true,
+      "mults": [
+        2,
+        2,
+        2,
+        4,
+        2,
+        2,
+        2
+      ]
+    },
+    "5.0": {
+      "all_even": true,
+      "mults": [
+        2,
+        2,
+        2,
+        4,
+        2,
+        2,
+        2
+      ]
+    }
+  },
+  "B_pseudospin_zeeman": {
+    "0.1": {
+      "all_even": false,
+      "mults": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "0.3": {
+      "all_even": false,
+      "mults": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "0.5": {
+      "all_even": false,
+      "mults": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  },
+  "C_conclusion": {
+    "standard_kramers": "标准 Kramers（自旋1/2+外部T）：Zeeman 场破 T ⟹ Kramers 破坏（标准结论）",
+    "intrinsic_kramers": "内禀 Kramers（spinless π 磁通+涌现T'）：物理 Zeeman 场无处耦合（无物理自旋）⟹ 鲁棒",
+    "distinguishing_signature": "可检验签名：一个材料若实现 π 磁通内禀 Kramers，它对「物理 Zeeman 场」无响应（Kramers 简并不被 Zeeman 劈裂），而标准自旋 1/2 Kramers 系统会被 Zeeman 劈裂。这是「内禀 vs 标准 Kramers」的可观测区别。",
+    "honest_note": "但需诚实：spinless 系统「无物理 Zeeman 响应」是定义性的（无自旋），不是新预言。真正要坐实的是「内禀 Kramers 的赝自旋不耦合物理场」这一层的可观测后果——本实验先坐实「对易扰动破坏、反对易扰动存活」的判据。"
+  }
+}

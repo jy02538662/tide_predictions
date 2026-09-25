@@ -1,0 +1,22 @@
+{
+  "A_PVM": {
+    "n_projections": 5,
+    "completeness_err": 5.30825383648903e-16,
+    "orthogonality_err": 2.220446049250313e-16,
+    "note": "5 个谱投影构成 PVM：ΣP_k=I（误差 5.31e-16），P_i P_j=δ_ij P_i（误差 2.22e-16）"
+  },
+  "B_stabilizer_code": {
+    "statement": "每个谱投影 P_k 的像 = 稳定子码空间（对易投影的共同 +1 本征空间）",
+    "note": "P_i P_j = δ_ij P_i（对易）⟹ {P_k} 是稳定子码的码空间投影集。自指 D 的谱结构天然给出稳定子码的数学构件。"
+  },
+  "C_knill_laflamme": {
+    "code_space_dim": 2,
+    "statement": "Knill-Laflamme 条件：P E_a† E_b P = c_ab P（标量 c_ab）⟹ 错误 {E_a} 可纠。自指 D 的谱投影 P_k 作为码空间投影，其可纠错性取决于具体的错误模型。结构上，PVM 是稳定子码的必要构件（码空间投影），完整纠错还需指定错误算子。",
+    "honest": "本实验坐实「自指 D 给出 PVM（稳定子码构件）」这一层；「具体能纠什么错」需指定错误模型（开放）。"
+  },
+  "D_conclusion": {
+    "clean_result": "自指 D（厄米）⟹ 谱投影 {P_k} 构成正交投影测量（PVM）⟹ PVM 是稳定子码（量子纠错码）的码空间投影构件。这是「自指 → 量子信息」的干净结构对应，不再是浅层的「幂等」。",
+    "what_is_derived": "厄米 D ⟹ 谱投影 ⟹ PVM ⟹ 稳定子码构件（对易投影的完备集）",
+    "what_is_open": "「具体纠什么错」需指定错误模型（Knill-Laflamme 的 c_ab 具体值），是开放层"
+  }
+}

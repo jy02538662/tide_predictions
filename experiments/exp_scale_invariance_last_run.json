@@ -1,0 +1,27 @@
+{
+  "A_rho_c_lambda_eq_c_inv_rho": {
+    "lhs_minus_rhs": "0",
+    "is_zero": true
+  },
+  "A_power_law_only_p_eq_minus1": {
+    "equation": "c^p = c^(-1)",
+    "solution": [
+      "-1"
+    ]
+  },
+  "B_measure_scale_invariance": {
+    "integral_a_to_b": "log((b/a)**C)",
+    "integral_ca_to_cb": "log((b/a)**C)",
+    "equal": true,
+    "note": "∫_a^b C/λ dλ = C ln(b/a)，在 λ→cλ 下不变 ⟹ 无特征尺度"
+  },
+  "C_cutoff_characteristic_scale": {
+    "Delta": "log(lambda_c/lambda_min)",
+    "note": "截断引入特征尺度 Δ=ln(λ_c/λ_min)。尺度不变要求无特征尺度，故被破坏。"
+  },
+  "C_support_shift": {
+    "original_support": "[λ_min, λ_c]",
+    "scaled_support": "[λ_min/c, λ_c/c]",
+    "note": "缩放后支撑整体左移，与原支撑不重合（除非 λ_min=0 且 λ_c=∞），故尺度不变被截断破坏。"
+  }
+}

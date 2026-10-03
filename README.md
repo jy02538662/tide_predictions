@@ -221,6 +221,14 @@ py -m experiments.exp_standard_predictions
 
 ---
 
+## 类比引力（门 1 观察者引力修正的声学度规探针，2026-09-30 归位）
+
+| 实验 | 类型 | 结果 |
+| --- | --- | --- |
+| `acoustic_probe` | 符号 | 1+1D 声学度规（Painlevé–Gullstrand）标量曲率 R=-2c''/c（声速二阶导/声速）——类比引力（BEC 声学视界）的曲率锚点，纯 print |
+
+---
+
 ## 冯诺伊曼分工
 
 - **符号（sympy）**：恒等式级（函数方程唯一解、Fourier 核的解析形式、T² 符号）——精确、无舍入误差；
